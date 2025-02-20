@@ -54,7 +54,7 @@ export default function Register() {
                   type={field === 'password' ? 'password' : 'text'}
                   name={field}
                   className="w-full mt-2 p-3 border border-gray-300 rounded-md"
-                  placeholder={`Enter your ${field}`}
+                  placeholder={`Isikan dengan ${field} Anda`}
                   value={formData[field]}
                   onChange={handleChange}
                 />
